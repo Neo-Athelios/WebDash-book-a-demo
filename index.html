@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Demo Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="tech-modern-bg">
+    <header class="sticky-header">
+        <nav class="navbar">
+          <a href="https://neo-athelios.github.io/WebDash/" class="logo">
+            <img src="logo.png" alt="TechnixCRM Logo">
+            <span class="logo-text"><pre> TechnixCRM  </pre></span>
+          </a>
+        </nav>
+    </header>
+    <div class="form-container">
+        <h2>Book a Demo Form</h2>
+        <form id="demoForm">
+            <div class="form-group">
+                <label for="name" class="tech-modern-label">Name:</label>
+                <input type="text" id="name" name="name" class="tech-modern-input" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email" class="tech-modern-label">Email:</label>
+                <input type="email" id="email" name="email" class="tech-modern-input" placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="phone" class="tech-modern-label">Phone (Optional):</label>
+                <input type="tel" id="phone" name="phone" class="tech-modern-input" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <label for="remarks" class="tech-modern-label">Remarks (Optional):</label>
+                <textarea id="remarks" name="remarks" class="tech-modern-input" placeholder="Enter any remarks or message" rows="4"></textarea>
+            </div>
+            <button type="submit" class="tech-modern-button">Submit</button>
+            <div id="feedback" class="feedback-message" style="display: none;" aria-live="polite"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

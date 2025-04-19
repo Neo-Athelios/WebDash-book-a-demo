@@ -1,0 +1,126 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff; /* Blue */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error-message,
+.success-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.error-message {
+    background-color: #ffdddd;
+    color: #ff0000; /* Orange-ish for error */
+    border: 1px solid #ffaaaa;
+}
+
+.success-message {
+    background-color: #ddffdd;
+    color: #00aa00; /* Green-ish for success */
+    border: 1px solid #aaffaa;
+}
+
+.tech-modern-bg {
+    background: linear-gradient(135deg, #001f3f, #1a5276); /* Darker blues for tech feel */
+}
+
+.tech-modern-input {
+    border-color: #5dade2; /* Lighter blue for input focus */
+    background-color: #e0f2f7; /* Very light blue */
+    color: #2e3d49; /* Dark gray-blue */
+}
+
+.tech-modern-button {
+    background-color: #ff8c00; /* Orange */
+}
+
+.tech-modern-button:hover {
+    background-color: #e67e22;
+}
+
+.tech-modern-label {
+    color: #2c3e50; /* Dark blue-gray */
+}
+.logo {
+display: flex;
+align-items: center;
+gap: 10px;
+text-decoration: none;
+}
+
+.logo img {
+height: 40px;
+transition: transform 0.3s ease;
+}
+
+.logo:hover img {
+transform: scale(1.05);
+}
+
+.logo-text {
+font-size: 1.5rem;
+font-weight: 700;
+background: white;
+-webkit-background-clip: text;
+background-clip: text;
+color: transparent;
+}
