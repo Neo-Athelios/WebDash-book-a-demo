@@ -71,7 +71,7 @@ Parent Repo:    https://github.com/Neo-Athelios/WebDash
 -
 Website:    https://neo-athelios.github.io/WebDash
 -
-Video:
+Video:    https://youtu.be/JRVpPbL6JA0
 -
 Problem Statement:    https://shorturl.at/GM9fk
 - 
