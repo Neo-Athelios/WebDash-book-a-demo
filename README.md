@@ -11,6 +11,10 @@
 # 🚀 TechnixCRM – Book a Demo Form
 
 A lightweight, responsive demo booking form built using HTML and CSS as an extension of the TechnixCRM project. Designed for users to submit basic contact information to schedule a demo with your CRM product.
+
+Snapshot :
+-
+![Screenshot_20-4-2025_102636_neo-athelios github io](https://github.com/user-attachments/assets/5fa971b1-ee0e-4984-b09b-125b4946f4c0)
 ---
 ## 📋 Table of Contents
 - [Features]
@@ -60,6 +64,7 @@ Design & Development
   <button type="submit" class="tech-modern-button">Submit</button>
 </form>
 ```
+
 WebDash 2025 - A Website Development Challenge by IEEE JMI Submission (Child Repo) -> WebDash-book-a-demo
 -
 Parent Repo:    https://github.com/Neo-Athelios/WebDash
